@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="UTF-8">
+		<title>Meus pacientes</title>
+		<link rel="shortcut icon" href="img/favicon.png">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/alura.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/jquery3.1.1-jquery.min.js"></script>
+		<script src="js/jquery.mask.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$("#campo-altura").mask("0.00")
+				$("#campo-peso").mask("000")
+		})
+		</script>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1>Meus pacientes</h1>
+			</div>
+		</header>
+		<main class="container">
+			<section>
+				<h2>IMC dos pacientes</h2>
+				<table>
+					<tr>
+						<th>Nome</th>
+						<th>Peso(KG)</th>
+						<th>Altura(M)</th>
+						<th>IMC</th>
+					</tr>
+					<tr class="paciente">
+						<td class="info-nome">Pedro</td>
+						<td class="info-peso">57</td>
+						<td class="info-altura">1.67</td>
+						<td class="info-imc"></td>
+					</tr>
+					<tr class="paciente">
+						<td class="info-nome">Luis</td>
+						<td class="info-peso">85</td>
+						<td class="info-altura">1.78</td>
+						<td class="info-imc"></td>
+					</tr>
+					<tr class="paciente">
+						<td class="info-nome">Silas</td>
+						<td class="info-peso">63</td>
+						<td class="info-altura">1.78</td>
+						<td class="info-imc"></td>
+					</tr>
+					<tr class="paciente">
+						<td class="info-nome">Natalia</td>
+						<td class="info-peso">30</td>
+						<td class="info-altura">1.49</td>
+						<td class="info-imc"></td>
+					</tr>
+				</table>
+				<button id="calcula-imcs" class="botao ">Calcular Imcs</button>
+			</section>
+			<section>
+				<h2>Adicionar novo paciente</h2>
+				<form>
+					<fieldset>
+						<label for="nome">Nome:</label>
+						<input id="campo-nome" type="text" maxlength="50" placeholder="Digite o nome do seu paciente">
+					</fieldset>
+					<fieldset class="campo-medio">
+						<label for="peso">Peso:</label>
+						<input id="campo-peso" type="text" placeholder="Digite o peso do seu paciente">
+					</fieldset>
+					<fieldset class="campo-medio">
+						<label for="altura">Altura:</label>
+						<input id="campo-altura" type="text"  placeholder="Digite a altura do seu paciente(apenas números)">
+					</fieldset>
+					<button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>
+				</form>
+			</section>
+		</main>
+		<script src="js/percorre.js"></script>
+		<script src="js/paciente.js"></script>
+		<script src="js/calcula-imc.js"></script>
+		<script src="js/mudar-de-cor.js"></script>
+		<script src="js/adiciona.js"></script>
+		<script src="js/imprime-nome.js"></script>	
+	</body>
+</html>

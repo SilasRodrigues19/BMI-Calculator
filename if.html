@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ifs</title>
+</head>
+<body>
+
+
+
+	<script>
+		/* 
+		1. se o salário mensal for > que 0 e < que 100 adiciona 5% de bonus
+		2. se nao cair na condição anterior e o salário for < que 200 adiciona 10% de bonus
+		3. e não cair nas anteriores adiciona 15% de bonus
+
+		OBS: Mudar valor da var salMensal para testar as condições
+		*/
+
+
+var estagiario = true;
+var CLT = false;
+
+if (estagiario || CLT)	{
+
+	
+	var salMensal = 2500;
+	var bonus;
+
+		if(salMensal >0 && salMensal <1000){
+			
+			bonus = salMensal * 0.05;
+
+			console.log("Bonus de 5% adicionado");
+
+			console.log(bonus);
+
+		} else if(salMensal <2000){
+			
+			bonus = salMensal * 0.10;
+
+			console.log("sBonus de 10% adicionado");
+
+			console.log(bonus);
+		} else {
+
+			bonus = salMensal * 0.15;
+
+			console.log("Bonus de 15% adicionado");
+
+			console.log(bonus);
+		}
+	}
+	</script>
+</body>
+</html>
