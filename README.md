@@ -104,3 +104,6 @@ Project Link: [https://github.com/SilasRodrigues19/IMC-Calculator](https://githu
 [license-shield]: https://img.shields.io/github/license/SilasRodrigues19/IMC-Calculator.svg?style=for-the-badge
 [license-url]: https://github.com/SilasRodrigues19/IMC-Calculator/blob/master/LICENSE
 [About View]: https://raw.githubusercontent.com/SilasRodrigues19/IMC-Calculator/master/view.png
+
+<br><hr>
+[🔼 Back to top](#IMC-Calculator)
