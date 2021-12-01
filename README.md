@@ -6,6 +6,7 @@
 
 <!-- PROJECT LOGO -->
 <br />
+<samp>
 <p align="center">
   <a href="#">
     <img src="https://bmicheck.co.uk/wp-content/uploads/2020/03/cropped-bmi_calculator_logo-1.png" alt="Logo" width="150" height="80">
